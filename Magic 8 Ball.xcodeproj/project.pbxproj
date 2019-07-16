@@ -10,8 +10,8 @@
 		9AD3F8D622DE472D00FA42C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3F8D522DE472D00FA42C9 /* AppDelegate.swift */; };
 		9AD3F8D822DE472D00FA42C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3F8D722DE472D00FA42C9 /* ViewController.swift */; };
 		9AD3F8DB22DE472D00FA42C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD3F8D922DE472D00FA42C9 /* Main.storyboard */; };
-		9AD3F8DD22DE472D00FA42C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD3F8DC22DE472D00FA42C9 /* Assets.xcassets */; };
 		9AD3F8E022DE472D00FA42C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD3F8DE22DE472D00FA42C9 /* LaunchScreen.storyboard */; };
+		9AD3F8E822DE474900FA42C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD3F8E722DE474900FA42C9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		9AD3F8D522DE472D00FA42C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AD3F8D722DE472D00FA42C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9AD3F8DA22DE472D00FA42C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AD3F8DC22DE472D00FA42C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AD3F8DF22DE472D00FA42C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AD3F8E122DE472D00FA42C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD3F8E722DE474900FA42C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Downloads/Magic 8 Ball Image Assets/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 				9AD3F8D522DE472D00FA42C9 /* AppDelegate.swift */,
 				9AD3F8D722DE472D00FA42C9 /* ViewController.swift */,
 				9AD3F8D922DE472D00FA42C9 /* Main.storyboard */,
-				9AD3F8DC22DE472D00FA42C9 /* Assets.xcassets */,
+				9AD3F8E722DE474900FA42C9 /* Assets.xcassets */,
 				9AD3F8DE22DE472D00FA42C9 /* LaunchScreen.storyboard */,
 				9AD3F8E122DE472D00FA42C9 /* Info.plist */,
 			);
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AD3F8E022DE472D00FA42C9 /* LaunchScreen.storyboard in Resources */,
-				9AD3F8DD22DE472D00FA42C9 /* Assets.xcassets in Resources */,
+				9AD3F8E822DE474900FA42C9 /* Assets.xcassets in Resources */,
 				9AD3F8DB22DE472D00FA42C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sgeorge.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sgeorge.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
